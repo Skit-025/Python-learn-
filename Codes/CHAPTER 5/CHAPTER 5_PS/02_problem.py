@@ -1,0 +1,10 @@
+num1 =int(input("Enter the number you wanna see in the set :"))
+num2 =int(input("Enter the number you wanna see in the set :"))
+num3 =int(input("Enter the number you wanna see in the set :"))
+num4 =int(input("Enter the number you wanna see in the set :"))
+num5 =int(input("Enter the number you wanna see in the set :"))
+num6 =int(input("Enter the number you wanna see in the set :"))
+num7 =int(input("Enter the number you wanna see in the set :"))
+num8 =int(input("Enter the number you wanna see in the set :"))
+s={num1,num2,num3,num4,num5,num6,num7,num8}
+print(s)

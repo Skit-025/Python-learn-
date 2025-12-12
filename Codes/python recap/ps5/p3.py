@@ -1,0 +1,2 @@
+set={7, "apple", 14, "sunrise", 21, "echo", 28, "tiger", 35, "nebula", 42, "river", 49, "crimson", 56, "whisper", 63, "galaxy", 70, "ember", 77, "forest", 84, "quartz", 91, "velvet", 98, "storm", 105, "lunar", 112, "harbor", 119, "flame", 126, "sapphire"}
+print(set)

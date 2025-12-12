@@ -1,0 +1,27 @@
+# a=input("Enter thr first fruit")
+# b=input("Enter thr second fruit")
+# c=input("Enter thr third fruit")
+# d=input("Enter thr fourth fruit")
+# e=input("Enter thr fifth fruit")
+# f=input("Enter thr sixth fruit")
+# g=input("Enter thr seventh fruit")
+# l1=[a,b,c,d,e,f,g]
+# print(l1)
+# or  
+
+fruit=[]
+a=input("Enter the fruit name:")
+fruit.append(a)
+b=input("Enter the fruit name:")
+fruit.append(b)
+c=input("Enter the fruit name:")
+fruit.append(c)
+d=input("Enter the fruit name:")
+fruit.append(d)
+e=input("Enter the fruit name:")
+fruit.append(e)
+f=input("Enter the fruit name:")
+fruit.append(f)
+g=input("Enter the fruit name:")
+fruit.append(g)
+print(fruit)

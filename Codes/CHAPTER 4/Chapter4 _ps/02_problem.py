@@ -1,0 +1,10 @@
+print("enter student marks bellow :")
+s1=float(input("Enter the student1 mark...\n"))
+s2=float(input("Enter the student2 mark...\n"))
+s3=float(input("Enter the student3 mark...\n"))
+s4=float(input("Enter the student4 mark...\n"))
+s5=float(input("Enter the student5 mark...\n"))
+s6=float(input("Enter the student6 mark...\n"))
+marks=[s1,s2,s3,s4,s5,s6]
+marks.sort()
+print(marks)
