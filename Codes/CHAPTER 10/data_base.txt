@@ -1,0 +1,36 @@
+New data
+ 
+ Company: Google
+Role: Ai developer
+Work: Ai developement
+Salary: 900000
+New data
+ 
+ Company: Microsoft
+Role: frontend developer
+Work: frontend developement
+Salary: 50000
+New data
+ 
+ Company: accetunter
+Role: backend developer
+Work: backend devedlopement
+Salary: 70000
+New data
+ 
+ Company: jsw
+Role: database engineer
+Work: database handeling
+Salary: 70000
+New data
+ 
+ Company: delloit
+Role: fullstack developer
+Work: fullstack developement
+Salary: 90000
+New data
+ 
+ Company: tcs
+Role: python developer
+Work: developement
+Salary: 80000
