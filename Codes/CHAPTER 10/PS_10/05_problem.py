@@ -32,6 +32,7 @@ class Train:
                 print("No fair as you are on Skit's Train!!!")
         elif (from_station=="KOAA" and to_station=="PNBE") or (from_station=="PNBE" and to_station=="KOAA"):
             Trains=["1.akal takth express","ara garib rath express"]
+            print(Trains)
             train=input("Choose any one train...").lower()
             print(f"You choosed {train} to travel")
             if train==Trains[0]:
@@ -40,6 +41,7 @@ class Train:
                 print("fair for the train is: 450 rupees")
         elif (from_station=="DWK" and to_station=="JAM") or (from_station=="JAM" and to_station=="DWK"):
             Trains=["1.ahemdabad vande bharat express","shalimar weekly sf express"]
+            print(Trains)
             train=input("Choose any one train...").lower()
             print(f"You choosed {train} to travel")
             if train==Trains[0]:
@@ -48,6 +50,7 @@ class Train:
                 print("fair for the train is: 757 rupees")
         elif (from_station=="CSMT" and to_station=="BBSN") or (from_station=="BBSN" and to_station=="CSMT"):
             Trains=["1.konark express","Skit's Train"]
+            print(Trains)
             train=input("Choose any one train...").lower()
             print(f"You choosed {train} to travel")
             if train==Trains[0]:
@@ -56,6 +59,7 @@ class Train:
                 print("No fair as you are on Skit's Train!!!")
         else:
             print("No trains are currently on service in this route.")
+        return
     def get_status(self):
         seat=rn.choice(["yes","no"])
         if seat=="yes":
