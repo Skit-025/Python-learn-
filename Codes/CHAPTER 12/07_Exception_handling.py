@@ -25,3 +25,35 @@ except ValueError:
 except Exception as e:
     # Handles all other exceptions
     print("An unexpected error occurred:", e)
+
+"""try with a else clause"""
+
+try:
+    print("Hello")
+except Exception as e:
+    print(e)
+else:
+    print("Something else")
+
+"""Raise keyword use"""
+
+def name(self, value):
+    if not isinstance(value, str):
+        raise ValueError("Name must be a string")
+    self._name = value
+
+"""Try with Finally"""
+
+def read_file(filename):
+    try:
+        f = open(filename, "r")
+        print("File opened successfully!")
+        # Simulate reading
+        data = f.read()
+        print("File content:", data)
+    finally:
+        print("Closing file...")
+        f.close()
+
+# Example call
+read_file("example.txt")
